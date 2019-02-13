@@ -5,6 +5,10 @@
 #ifndef FT_PRINTF_FLAGS_H
 #define FT_PRINTF_FLAGS_H
 
+// o - octal
+// x - unsigned hexadecimal int
+// X - Unsigned hexadecimal integer (capital letters)
+
 typedef enum {
     c_FLAG = 1 << 0,
     s_FLAG = 1 << 1,
