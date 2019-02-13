@@ -4,6 +4,6 @@ project(ft_printf)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        Makefile src/write.c)
+        Makefile src/write.c src/flags.h)
 
 add_executable(ft_printf ${SOURCE_FILES})

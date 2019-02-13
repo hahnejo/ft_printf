@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 
 int	main() {
 	int i = 0;
@@ -7,5 +8,6 @@ int	main() {
 		write(1, &str[i], 1);
 		i++;
 	}
+	printf("%%\n");
 	return (0);
 }
