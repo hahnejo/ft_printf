@@ -6,6 +6,7 @@
 #include <stdarg.h>
 #include "libft.h"
 
+// not doing buffer management == not repeating the behavior of sprintf
 // %[flags][width][.precision][length]specifier
 
 int     dictatef(FILE *stream, const char *format, va_list arg) {
@@ -21,15 +22,13 @@ int     dictatef(FILE *stream, const char *format, va_list arg) {
 
 int     ft_printf(const char *format, ...) {
     int i = 0;
+    int ans;
     char output;
     va_list ap;
-    va_start(ap, format);
-    int ans;
 
     va_start(ap, format);
     ans = dictatef(stdout, format, ap);
     va_end(ap);
-
     return (ans);
 }
 
