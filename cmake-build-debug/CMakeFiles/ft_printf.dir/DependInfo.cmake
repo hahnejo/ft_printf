@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hahn/Projects/ft_printf/src/write.c" "/Users/hahn/Projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/write.c.o"
+  "/nfs/2018/h/hjo/projects/ft_printf/src/write.c" "/nfs/2018/h/hjo/projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/write.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
