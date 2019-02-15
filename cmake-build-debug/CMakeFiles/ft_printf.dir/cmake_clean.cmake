@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/src/write.c.o"
+  "CMakeFiles/ft_printf.dir/src/my_printf.c.o"
+  "CMakeFiles/ft_printf.dir/src/main.c.o"
   "ft_printf.pdb"
   "ft_printf"
 )

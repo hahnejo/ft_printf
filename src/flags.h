@@ -23,9 +23,7 @@ typedef enum {
     h_FLAG = 1 << 10,
     l_FLAG = 1 << 11,
     ll_FLAG = 1 << 12,
-    f_FLAG = 1 << 13,
-
-
-}           t_flags;
+    f_FLAG = 1 << 13
+}           t_conversion;
 
 #endif //FT_PRINTF_FLAGS_H

@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/nfs/2018/h/hjo/projects/ft_printf/dependencies/libft/include 
 

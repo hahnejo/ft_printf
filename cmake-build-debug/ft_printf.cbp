@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/nfs/2018/h/hjo/projects/ft_printf/dependencies/libft/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
@@ -66,6 +67,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/nfs/2018/h/hjo/projects/ft_printf/dependencies/libft/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
@@ -82,10 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2018/h/hjo/projects/ft_printf/Makefile">
+		<Unit filename="/nfs/2018/h/hjo/projects/ft_printf/src/flags.h">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/nfs/2018/h/hjo/projects/ft_printf/src/flags.h">
+		<Unit filename="/nfs/2018/h/hjo/projects/ft_printf/src/main.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/nfs/2018/h/hjo/projects/ft_printf/src/my_printf.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/nfs/2018/h/hjo/projects/ft_printf/src/write.c">

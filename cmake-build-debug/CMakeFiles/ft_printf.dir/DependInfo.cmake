@@ -4,12 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2018/h/hjo/projects/ft_printf/src/main.c" "/nfs/2018/h/hjo/projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/main.c.o"
+  "/nfs/2018/h/hjo/projects/ft_printf/src/my_printf.c" "/nfs/2018/h/hjo/projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/my_printf.c.o"
   "/nfs/2018/h/hjo/projects/ft_printf/src/write.c" "/nfs/2018/h/hjo/projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/write.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../dependencies/libft/include"
   )
 
 # Targets to which this target links.

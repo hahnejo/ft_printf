@@ -123,6 +123,60 @@ ft_printf/fast:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/build
 .PHONY : ft_printf/fast
 
+src/main.o: src/main.c.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/my_printf.o: src/my_printf.c.o
+
+.PHONY : src/my_printf.o
+
+# target to build an object file
+src/my_printf.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/my_printf.c.o
+.PHONY : src/my_printf.c.o
+
+src/my_printf.i: src/my_printf.c.i
+
+.PHONY : src/my_printf.i
+
+# target to preprocess a source file
+src/my_printf.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/my_printf.c.i
+.PHONY : src/my_printf.c.i
+
+src/my_printf.s: src/my_printf.c.s
+
+.PHONY : src/my_printf.s
+
+# target to generate assembly for a file
+src/my_printf.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/src/my_printf.c.s
+.PHONY : src/my_printf.c.s
+
 src/write.o: src/write.c.o
 
 .PHONY : src/write.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ft_printf"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/my_printf.o"
+	@echo "... src/my_printf.i"
+	@echo "... src/my_printf.s"
 	@echo "... src/write.o"
 	@echo "... src/write.i"
 	@echo "... src/write.s"

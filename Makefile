@@ -8,7 +8,8 @@ INCLUDES = -I dependencies/libft/include
 
 all : $(NAME)
 
-$(NAME) : object_folder dependencies $(OBJ) $(CC) $(CFLAG) $(INCLUDES) $(OBJ) $(LIBFT) -o $(NAME)
+$(NAME) : object_folder dependencies $(OBJ)
+	$(CC) $(CFLAG) $(INCLUDES) $(OBJ) $(LIBFT) -o $(NAME)
 
 dependencies : $(LIBFT)
 
