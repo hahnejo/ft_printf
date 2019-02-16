@@ -19,11 +19,11 @@ typedef enum {
     u_FLAG = 1 << 6,
     x_FLAG = 1 << 7,
     X_FLAG = 1 << 8,
-    hh_FLAG = 1 << 9,
+    f_FLAG = 1 << 9,
     h_FLAG = 1 << 10,
     l_FLAG = 1 << 11,
     ll_FLAG = 1 << 12,
-    f_FLAG = 1 << 13
-}           t_conversion;
+    lh_FLAG = 1 << 13,
+}           t_conversions;
 
 #endif //FT_PRINTF_FLAGS_H
