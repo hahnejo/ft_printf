@@ -14,18 +14,18 @@ $(NAME) : object_folder dependencies $(OBJ)
 dependencies : $(LIBFT)
 
 object_folder :
-	mkdir obj
+	-@mkdir obj
 
 $(LIBFT) :
-	-@ cd dependencies/libft && make
+	-@cd dependencies/libft && make
 
 obj/%.o : src/%.c
 	$(CC) $(CFLAGS) $(INCLUDES) -c -o $@ $<
 
 clean :
-	rm -rf obj
-	rm -f $(NAME)
-	make -C dependencies/libft/ clean
+	-@rm -rf obj
+	-@rm -f $(NAME)
+	-@make -C dependencies/libft/ clean
 
 fclean :
 	-@rm -f $(NAME)
