@@ -23,13 +23,11 @@ typedef enum {
     h_FLAG = 1 << 10,
     l_FLAG = 1 << 11,
     ll_FLAG = 1 << 12,
-    lh_FLAG = 1 << 13,
+    hh_FLAG = 1 << 13,
 }           t_conversions;
 
 typedef struct s_conv_info
 {
-    int conv_count;
-    int *conv_list;
     int current_conv;
 }               t_conv_info;
 

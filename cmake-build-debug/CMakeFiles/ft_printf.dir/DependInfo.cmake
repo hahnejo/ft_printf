@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hahn/Projects/ft_printf/src/main.c" "/Users/hahn/Projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/main.c.o"
-  "/Users/hahn/Projects/ft_printf/src/my_printf.c" "/Users/hahn/Projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/my_printf.c.o"
-  "/Users/hahn/Projects/ft_printf/src/write.c" "/Users/hahn/Projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/write.c.o"
+  "/nfs/2018/h/hjo/Projects/ft_printf/src/main.c" "/nfs/2018/h/hjo/Projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/main.c.o"
+  "/nfs/2018/h/hjo/Projects/ft_printf/src/my_printf.c" "/nfs/2018/h/hjo/Projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/my_printf.c.o"
+  "/nfs/2018/h/hjo/Projects/ft_printf/src/write.c" "/nfs/2018/h/hjo/Projects/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/src/write.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

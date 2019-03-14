@@ -9,6 +9,6 @@ set(SOURCE_FILES
         src/write.c
         src/my_printf.c
         src/main.c
-        src/flags.h)
+        src/flags.h src/ft_printf.h)
 
 add_executable(ft_printf ${SOURCE_FILES})
